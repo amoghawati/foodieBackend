@@ -1,0 +1,47 @@
+.div1{
+    font-size: 50px ;
+    color: white;
+    padding: 60px 0px ;
+    text-align: center;
+    background-color: rgb(253, 4, 4);
+}
+.para{
+    display: flex;
+} 
+#two{
+    background-color: brown;
+}
+#one{
+    background-color: aquamarine;
+}
+.img{
+    display: flex;
+}
+/* media queries */
+@media only screen and (max-width:992px){/* */
+    .div1{
+        background-color: green;
+        font-size: 50px ;
+    }
+    .para{
+        display: block;
+    }
+    .img{
+        display: block;
+    }
+    .img img{
+        display: none;
+    }
+}
+@media only screen and (max-width:760px){
+    .div1{
+        background-color: black;
+        font-size: 40px ;
+    }
+}
+@media only screen and (max-width:600px){
+    .div1{
+        background-color: blue;
+        font-size: 30px ;
+    }
+}
